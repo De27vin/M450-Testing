@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import TripList from "../components/TripList";
-import '@testing-library/jest-dom/extend-expect';
+import '@testing-library/jest-dom';
 
 const mockTrips = [
     { id: 1, title: "Trip to Paris", description: "Enjoy Paris", startTrip: [2024, 1, 15], endTrip: [2024, 1, 20] },
