@@ -25,7 +25,7 @@ describe("App Component User Interactions", () => {
         // Füge das Trip hinzu
         fireEvent.click(addToWishlistButton);
 
-        // Überprüfe, ob das Trip in der Wishlist angezeigt wird
+        // Überprüfe, ob der Trip in der Wishlist angezeigt wird
         expect(screen.getByText(/Trip to Paris/i)).toBeInTheDocument();
     });
 
